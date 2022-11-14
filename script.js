@@ -1,8 +1,8 @@
 "use strict";
 
-const { CreateApp } = Vue;
+const { createApp } = Vue;
 
-CreateApp({
+createApp({
     data() {
         return {
             slides: [
@@ -35,4 +35,4 @@ CreateApp({
         }
     }
 }).mount('#app');
-    
+
